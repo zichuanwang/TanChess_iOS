@@ -1,0 +1,11 @@
+//
+// Prefix header for all source files of the 'Tan Chess HD' target in the 'Tan Chess HD' project
+//
+#import <Availability.h>
+
+#ifdef __OBJC__
+	#import <Foundation/Foundation.h>
+	#import <UIKit/UIKit.h>
+#endif
+
+#import "OpenFeint/OpenFeintPrefix.pch"

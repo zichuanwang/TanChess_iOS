@@ -1,0 +1,41 @@
+<resources>
+<game_profile_page_info>
+  <has_chat_rooms>false</has_chat_rooms>
+  <has_challenges>true</has_challenges>
+  <suggestions_topic_id>797822</suggestions_topic_id>
+  <has_achievements>false</has_achievements>
+  <has_leaderboards>true</has_leaderboards>
+  <has_featured_application>false</has_featured_application>
+  <has_ipurchase>false</has_ipurchase>
+  <short_name>Tan Chess HD</short_name>
+  <name>Tan Chess HD</name>
+  <id>288902</id>
+  <timestamp>2011-05-22 08:53:44</timestamp>
+  <is_owned_by_local_player>true</is_owned_by_local_player>
+</game_profile_page_info>
+<offline>
+<timestamp>2011-05-22 08:53:44</timestamp>
+<leaderboards>
+<leaderboard>
+<id>747127</id>
+<name>Best Tan Chesser</name>
+<active>true</active>
+<visible>true</visible>
+<allow_posting_lower_scores>false</allow_posting_lower_scores>
+<client_application_id>288902</client_application_id>
+<descending_sort_order>true</descending_sort_order>
+<created_at>2011-05-22 08:52:41 UTC</created_at>
+<updated_at>2011-05-22 08:52:41 UTC</updated_at>
+<start_version>9999.99.99</start_version>
+<end_version>9999.99.99</end_version>
+<position>0</position>
+<reached_at></reached_at>
+<display_text></display_text>
+<custom_data></custom_data>
+<score></score>
+<timestamp>2011-05-22 08:53:44</timestamp>
+</leaderboard>
+</leaderboards>
+</offline>
+
+</resources>
