@@ -505,16 +505,15 @@
 		E14D190F1381BDD000270FAE /* Brain.mm in Sources */ = {isa = PBXBuildFile; fileRef = E14D190E1381BDCF00270FAE /* Brain.mm */; };
 		E17C956416467BC900A8F390 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E17C956316467BC900A8F390 /* MapKit.framework */; };
 		E17C956616467C8300A8F390 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E17C956516467C8300A8F390 /* MobileCoreServices.framework */; };
+		E17C95681646833900A8F390 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E17C95671646833900A8F390 /* CoreLocation.framework */; };
+		E17C956A1646839800A8F390 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E17C95691646839800A8F390 /* Security.framework */; };
+		E17C956C164683A100A8F390 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E17C956B164683A100A8F390 /* CFNetwork.framework */; };
+		E17C956F164683B800A8F390 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E17C956D164683B700A8F390 /* AddressBook.framework */; };
+		E17C9570164683B800A8F390 /* AddressBookUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E17C956E164683B800A8F390 /* AddressBookUI.framework */; };
+		E17C9572164684C900A8F390 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E17C9571164684C800A8F390 /* SystemConfiguration.framework */; };
 		E1B43C1A1386626400ED151B /* Bluetooth-select-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = E1B43C191386626400ED151B /* Bluetooth-select-hd.png */; };
 		E1B8028613A8360F00F8A194 /* CCScrollLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = E1B8028513A8360F00F8A194 /* CCScrollLayer.m */; };
 		E1E0B80D13857CAB00F7D850 /* OFResources_Universal.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E1E0B80C13857CAB00F7D850 /* OFResources_Universal.bundle */; };
-		E1E0B82F138584B800F7D850 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1E0B825138584B800F7D850 /* SystemConfiguration.framework */; };
-		E1E0B830138584B800F7D850 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1E0B826138584B800F7D850 /* Security.framework */; };
-		E1E0B831138584B800F7D850 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1E0B827138584B800F7D850 /* CFNetwork.framework */; };
-		E1E0B832138584B800F7D850 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1E0B828138584B800F7D850 /* CoreLocation.framework */; };
-		E1E0B833138584B800F7D850 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1E0B829138584B800F7D850 /* MapKit.framework */; settings = {ATTRIBUTES = (Required, ); }; };
-		E1E0B834138584B800F7D850 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1E0B82A138584B800F7D850 /* AddressBook.framework */; };
-		E1E0B835138584B800F7D850 /* AddressBookUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1E0B82B138584B800F7D850 /* AddressBookUI.framework */; };
 		E1E0B83C138585EB00F7D850 /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = E1E0B83B138585EB00F7D850 /* libsqlite3.0.dylib */; };
 		E1E0B84413858D4100F7D850 /* openfeint_offline_config.xml in Resources */ = {isa = PBXBuildFile; fileRef = E1E0B84313858D4100F7D850 /* openfeint_offline_config.xml */; };
 		E1E0B85213865BEE00F7D850 /* Bluetooth-ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = E1E0B84D13865BEE00F7D850 /* Bluetooth-ipad.png */; };
@@ -2082,18 +2081,16 @@
 		E14D190E1381BDCF00270FAE /* Brain.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Brain.mm; sourceTree = "<group>"; };
 		E17C956316467BC900A8F390 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		E17C956516467C8300A8F390 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		E17C95671646833900A8F390 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		E17C95691646839800A8F390 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		E17C956B164683A100A8F390 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		E17C956D164683B700A8F390 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		E17C956E164683B800A8F390 /* AddressBookUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBookUI.framework; path = System/Library/Frameworks/AddressBookUI.framework; sourceTree = SDKROOT; };
+		E17C9571164684C800A8F390 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		E1B43C191386626400ED151B /* Bluetooth-select-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Bluetooth-select-hd.png"; sourceTree = "<group>"; };
 		E1B8028413A8360F00F8A194 /* CCScrollLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCScrollLayer.h; sourceTree = "<group>"; };
 		E1B8028513A8360F00F8A194 /* CCScrollLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCScrollLayer.m; sourceTree = "<group>"; };
 		E1E0B80C13857CAB00F7D850 /* OFResources_Universal.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = OFResources_Universal.bundle; sourceTree = "<group>"; };
-		E1E0B825138584B800F7D850 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SystemConfiguration.framework; sourceTree = "<group>"; };
-		E1E0B826138584B800F7D850 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Security.framework; sourceTree = "<group>"; };
-		E1E0B827138584B800F7D850 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CFNetwork.framework; sourceTree = "<group>"; };
-		E1E0B828138584B800F7D850 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CoreLocation.framework; sourceTree = "<group>"; };
-		E1E0B829138584B800F7D850 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MapKit.framework; sourceTree = "<group>"; };
-		E1E0B82A138584B800F7D850 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AddressBook.framework; sourceTree = "<group>"; };
-		E1E0B82B138584B800F7D850 /* AddressBookUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AddressBookUI.framework; sourceTree = "<group>"; };
-		E1E0B82C138584B800F7D850 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MobileCoreServices.framework; sourceTree = "<group>"; };
 		E1E0B83B138585EB00F7D850 /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
 		E1E0B84313858D4100F7D850 /* openfeint_offline_config.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = openfeint_offline_config.xml; sourceTree = "<group>"; };
 		E1E0B84D13865BEE00F7D850 /* Bluetooth-ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Bluetooth-ipad.png"; sourceTree = "<group>"; };
@@ -3658,6 +3655,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E17C9572164684C900A8F390 /* SystemConfiguration.framework in Frameworks */,
+				E17C956F164683B800A8F390 /* AddressBook.framework in Frameworks */,
+				E17C9570164683B800A8F390 /* AddressBookUI.framework in Frameworks */,
+				E17C956C164683A100A8F390 /* CFNetwork.framework in Frameworks */,
+				E17C956A1646839800A8F390 /* Security.framework in Frameworks */,
+				E17C95681646833900A8F390 /* CoreLocation.framework in Frameworks */,
 				E17C956616467C8300A8F390 /* MobileCoreServices.framework in Frameworks */,
 				E17C956416467BC900A8F390 /* MapKit.framework in Frameworks */,
 				E14191E613F921D500BC4950 /* libz.1.1.3.dylib in Frameworks */,
@@ -3673,13 +3676,6 @@
 				506EDBA5102F4C9F00A389B3 /* AVFoundation.framework in Frameworks */,
 				506EE1A91030508200A389B3 /* libcocos2d libraries.a in Frameworks */,
 				046355BC12FEDADD0058E92E /* GameKit.framework in Frameworks */,
-				E1E0B82F138584B800F7D850 /* SystemConfiguration.framework in Frameworks */,
-				E1E0B830138584B800F7D850 /* Security.framework in Frameworks */,
-				E1E0B831138584B800F7D850 /* CFNetwork.framework in Frameworks */,
-				E1E0B832138584B800F7D850 /* CoreLocation.framework in Frameworks */,
-				E1E0B833138584B800F7D850 /* MapKit.framework in Frameworks */,
-				E1E0B834138584B800F7D850 /* AddressBook.framework in Frameworks */,
-				E1E0B835138584B800F7D850 /* AddressBookUI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -3877,7 +3873,6 @@
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
-				E17C956516467C8300A8F390 /* MobileCoreServices.framework */,
 				E1FA60E5138981DB0072DF13 /* OpenFeint */,
 				E11AB1FF13897B2200A54933 /* OpenFeintMultiplayer */,
 				504DFC7310AF1758006D82FE /* LICENSE.cocos2d */,
@@ -3905,18 +3900,17 @@
 		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				E17C9571164684C800A8F390 /* SystemConfiguration.framework */,
+				E17C956D164683B700A8F390 /* AddressBook.framework */,
+				E17C956E164683B800A8F390 /* AddressBookUI.framework */,
+				E17C956B164683A100A8F390 /* CFNetwork.framework */,
+				E17C95691646839800A8F390 /* Security.framework */,
+				E17C95671646833900A8F390 /* CoreLocation.framework */,
+				E17C956516467C8300A8F390 /* MobileCoreServices.framework */,
 				E17C956316467BC900A8F390 /* MapKit.framework */,
 				E14191E513F921D400BC4950 /* libz.1.1.3.dylib */,
 				506EDB87102F4C4000A389B3 /* libz.dylib */,
 				E1E0B83B138585EB00F7D850 /* libsqlite3.0.dylib */,
-				E1E0B825138584B800F7D850 /* SystemConfiguration.framework */,
-				E1E0B826138584B800F7D850 /* Security.framework */,
-				E1E0B827138584B800F7D850 /* CFNetwork.framework */,
-				E1E0B828138584B800F7D850 /* CoreLocation.framework */,
-				E1E0B829138584B800F7D850 /* MapKit.framework */,
-				E1E0B82A138584B800F7D850 /* AddressBook.framework */,
-				E1E0B82B138584B800F7D850 /* AddressBookUI.framework */,
-				E1E0B82C138584B800F7D850 /* MobileCoreServices.framework */,
 				DCCBF1B60F6022AE0040855A /* CoreGraphics.framework */,
 				DCCBF1B80F6022AE0040855A /* Foundation.framework */,
 				DCCBF1BA0F6022AE0040855A /* OpenGLES.framework */,
